@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://styret.dokuwell.com/sitemap.xml
+Sitemap: https://styret.dokuline.com/sitemap.xml
