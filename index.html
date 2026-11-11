@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For styret i borettslag og sameier: skriftlig HMS-internkontroll, årshjul, maler for vedtekter og husordensregler på ett sted.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Styreverktøyet</a></div>
-  <nav class="top"><a href="#hva" data-ev="click_nav_hva">Dette får du</a><a href="price.html" data-ev="click_nav_pris">Pris</a><a href="#eksempel" data-ev="click_nav_eksempel">Eksempel</a><a href="#start" data-ev="click_nav_start">Kom i gang</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Styreverktøyet</a>
+  <nav><a href="#hva" data-ev="click_nav_hva">Dette får du</a><a href="price.html" data-ev="click_nav_pris">Pris</a><a href="#eksempel" data-ev="click_nav_eksempel">Eksempel</a><a href="#start" data-ev="click_nav_start">Kom i gang</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Styrearbeidet i borettslaget samlet — HMS-internkontroll, årshjul, vedtekter og husordensregler</h1>
-    <p class="sub">For styret i borettslag og eierseksjonssameier: et skriftlig HMS-dokument, et årshjul med frister og oppgaver, maler for vedtekter og husordensregler, og styrets dokumenter på ett sted.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Dette trenger jeg</a>
-    <p class="cta-note">Tidlig tilgang · Ingen betaling tas imot på denne siden ennå</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For styret i borettslag</p>
+      <h1 class="rise" style="--i:1" data-len="long">Styrearbeidet i borettslaget samlet&nbsp;<span class="soft">— HMS-internkontroll, årshjul, vedtekter og husordensregler</span></h1>
+      <p class="rise" style="--i:2">For styret i borettslag og eierseksjonssameier: et skriftlig HMS-dokument, et årshjul med frister og oppgaver, maler for vedtekter og husordensregler, og styrets dokumenter på ett sted.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Dette trenger jeg</a>
+      <p class="meta rise" style="--i:4">Tidlig tilgang · Ingen betaling tas imot på denne siden ennå</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">Styrearbeidet</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="250" width="44" height="44" rx="8" fill="#12397a" /><text x="200" y="282" font-size="32" fill="#0a1524">årshjul</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">HMS-internkontroll</text><rect x="130" y="450" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="460" width="220" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="550" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="560" width="300" height="24" rx="12" fill="#dde2ea" /><rect x="700" y="250" width="370" height="420" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="34" fill="#0a1524" font-weight="600">Styret</text><rect x="740" y="500" width="50" height="120" rx="8" fill="#ffffff" /><rect x="820" y="420" width="50" height="200" rx="8" fill="#12397a" /><rect x="900" y="460" width="50" height="160" rx="8" fill="#ffffff" /><rect x="980" y="530" width="50" height="90" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Styret i borettslag</dd></div>
+      <div><dt>Samler</dt><dd>Styrets dokumenter</dd></div>
+      <div><dt>Årshjul</dt><dd>Årshjul med frister</dd></div>
+      <div><dt>Tilgang</dt><dd>Tidlig tilgang</dd></div>
+    </dl>
+  </section>
 
   <section id="hva" data-view="features_view">
-    <h2>Dette får du</h2>
-    <div class="grid">
-      <div class="card"><b>HMS-internkontroll</b><span>Et skriftlig HMS-dokument med sjekklister og ansvar.</span><br><a class="btn" href="price.html" data-ev="feature_hms">Dette trenger jeg</a></div>
-      <div class="card"><b>Årshjul</b><span>Oppgaver og frister for styret gjennom året.</span><br><a class="btn" href="price.html" data-ev="feature_arshjul">Dette trenger jeg</a></div>
-      <div class="card"><b>Maler</b><span>Vedtekter, husordensregler og innkalling til generalforsamling.</span><br><a class="btn" href="price.html" data-ev="feature_maler">Dette trenger jeg</a></div>
-      <div class="card"><b>Arkiv</b><span>Protokoller, avtaler og dokumenter samlet.</span><br><a class="btn" href="price.html" data-ev="feature_arkiv">Dette trenger jeg</a></div>
+    <div class="stack"><h2>Dette får du</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">HMS-internkontroll</text><rect x="120" y="190" width="300" height="28" rx="8" fill="#dde2ea" /><rect x="120" y="248" width="420" height="28" rx="8" fill="#b9c3d2" /><rect x="120" y="306" width="240" height="28" rx="8" fill="#dde2ea" /><rect x="120" y="364" width="360" height="28" rx="8" fill="#b9c3d2" /><circle cx="560" cy="430" r="58" fill="#dfe8f7" /><polyline points="532,430 552,452 592,404" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>HMS-internkontroll</h3><p>Et skriftlig HMS-dokument med sjekklister og ansvar.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_hms">Dette trenger jeg</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Årshjul</text><rect x="120" y="190" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="265" y="190" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="190" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="555" y="190" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="290" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="265" y="290" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="290" width="120" height="70" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="555" y="290" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="390" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="265" y="390" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="390" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="555" y="390" width="120" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Årshjul</h3><p>Oppgaver og frister for styret gjennom året.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_arshjul">Dette trenger jeg</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Maler</text><line x1="120" y1="490" x2="680" y2="490" fill="none" stroke="#dde2ea" stroke-width="4" /><rect x="150" y="270" width="70" height="220" rx="8" fill="#b9c3d2" /><rect x="280" y="350" width="70" height="140" rx="8" fill="#dde2ea" /><rect x="410" y="230" width="70" height="260" rx="8" fill="#12397a" /><rect x="540" y="390" width="70" height="100" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Maler</h3><p>Vedtekter, husordensregler og innkalling til generalforsamling.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_maler">Dette trenger jeg</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Arkiv</text><rect x="120" y="190" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="200" width="280" height="24" rx="12" fill="#b9c3d2" /><polyline points="128,212 138,224 156,202" fill="none" stroke="#12397a" stroke-width="4" /><rect x="120" y="265" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="275" width="360" height="24" rx="12" fill="#b9c3d2" /><rect x="120" y="340" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="350" width="220" height="24" rx="12" fill="#b9c3d2" /><polyline points="128,362 138,374 156,352" fill="none" stroke="#12397a" stroke-width="4" /><rect x="120" y="415" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="425" width="320" height="24" rx="12" fill="#b9c3d2" /></svg></div>
+        <h3>Arkiv</h3><p>Protokoller, avtaler og dokumenter samlet.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_arkiv">Dette trenger jeg</a>
+      </article>
     </div>
   </section>
 
-  <section id="eksempel" data-view="example_view">
-    <h2>Eksempel (oppdiktede opplysninger)</h2>
-    <p class="fine">Borettslag med 36 leiligheter i Bergen, nytt styre etter generalforsamlingen. Første kveld: HMS-dokumentet fylles ut med brannvern og lekeplass, årshjulet viser at kontroll av brannslukkere er i november, og husordensreglene oppdateres fra malen og sendes beboerne.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Velg pakke</a>
+  <section id="eksempel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Eksempel</h2>
+      <p>Borettslag med 36 leiligheter i Bergen, nytt styre etter generalforsamlingen. Første kveld: HMS-dokumentet fylles ut med brannvern og lekeplass, årshjulet viser at kontroll av brannslukkere er i november, og husordensreglene oppdateres fra malen og sendes beboerne.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Velg pakke</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">36 leiligheter</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">brannvern</text><circle cx="960" cy="150" r="20" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">i november</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" fill="#0a1524" font-weight="600">husordensreglene</text><rect x="170" y="440" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="440" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="370" y="440" width="64" height="64" rx="10" fill="#12397a" /><rect x="470" y="440" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="570" y="440" width="64" height="64" rx="10" fill="#dfe8f7" /><text x="170" y="620" font-size="32" fill="#566174">fra malen</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Slik fungerer det</h2>
-    <p>Styret i et borettslag eller sameie er som regel frivillige naboer som overtar et ansvar de ikke har gjort før: HMS-internkontroll, vedtekter, husordensregler, generalforsamling, avtaler med leverandører. Når styret byttes ut, forsvinner ofte kunnskapen med det gamle styret. Styreverktøyet samler styrearbeidet på ett sted, slik at det nye styret kan fortsette der det gamle slapp.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Slik fungerer det</h2></div>
+    <div class="stack">
+      <p>Styret i et borettslag eller sameie er som regel frivillige naboer som overtar et ansvar de ikke har gjort før: HMS-internkontroll, vedtekter, husordensregler, generalforsamling, avtaler med leverandører. Når styret byttes ut, forsvinner ofte kunnskapen med det gamle styret. Styreverktøyet samler styrearbeidet på ett sted, slik at det nye styret kan fortsette der det gamle slapp.</p>
     <p>HMS-internkontrollen lages som et skriftlig dokument ut fra sjekklister for det som finnes i bygget: brannvern, ventilasjon, lekeplass, heis, garasje. Hvert punkt får en ansvarlig og en dato for neste kontroll, og dokumentet oppdateres når noe endres.</p>
     <p>Årshjulet viser styrets oppgaver gjennom året: når generalforsamlingen skal holdes, når innkallingen må sendes, når kontroller og avtaler skal fornyes. Påminnelser kommer i god tid før hver frist.</p>
     <p>Malene for vedtekter, husordensregler og innkalling til generalforsamling gjør det enklere å komme i gang. Styret tilpasser malene til sitt borettslag eller sameie, og de ferdige dokumentene kan sendes beboerne eller legges ut på hjemmesiden.</p>
@@ -118,31 +152,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Avtaler med leverandører — snømåking, renhold, heis, forsikring — legges inn med utløpsdato. Årshjulet minner styret på når en avtale bør vurderes eller sies opp, slik at borettslaget ikke betaler for avtaler ingen lenger følger med på.</p>
     <p>Henvendelser fra beboere om feil og mangler kan samles i en enkel liste med status, så styret ser hva som er meldt, hvem som følger opp og hva som er løst.</p>
     <p>Styreverktøyet gir ikke juridisk rådgivning. Styret er ansvarlig for HMS-arbeidet, vedtektene og beslutningene i borettslaget eller sameiet.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Vanlige spørsmål</h2>
-    <h3>Hvem passer verktøyet for?</h3>
-    <p>Styret i borettslag og eierseksjonssameier.</p>
-    <h3>Lager det et HMS-dokument?</h3>
-    <p>Ja, et skriftlig HMS-dokument ut fra sjekklister for bygget.</p>
-    <h3>Finnes det maler for vedtekter?</h3>
-    <p>Ja, for vedtekter, husordensregler og innkalling til generalforsamling.</p>
-    <h3>Hva skjer når styret byttes?</h3>
-    <p>Det nye styret får tilgang til hele arkivet og historikken.</p>
-    <h3>Kan jeg bruke tjenesten allerede?</h3>
-    <p>Ikke ennå. Tjenesten er under forberedelse, og vi undersøker om styrer trenger den.</p>
+    <div class="stack"><h2>Vanlige spørsmål</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Hvem passer verktøyet for?</h3><p>Styret i borettslag og eierseksjonssameier.</p></div>
+      <div class="split flip"><h3>Lager det et HMS-dokument?</h3><p>Ja, et skriftlig HMS-dokument ut fra sjekklister for bygget.</p></div>
+      <div class="split flip"><h3>Finnes det maler for vedtekter?</h3><p>Ja, for vedtekter, husordensregler og innkalling til generalforsamling.</p></div>
+      <div class="split flip"><h3>Hva skjer når styret byttes?</h3><p>Det nye styret får tilgang til hele arkivet og historikken.</p></div>
+      <div class="split flip"><h3>Kan jeg bruke tjenesten allerede?</h3><p>Ikke ennå. Tjenesten er under forberedelse, og vi undersøker om styrer trenger den.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Legg inn borettslaget</h2>
-    <p><label>Antall boliger<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— velg —</option><option>Opptil 20</option><option>21–60</option><option>61–150</option><option>Mer enn 150</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Legg inn</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Legg inn borettslaget</h2>
+    </div>
+    <div class="tile stack">
+      <label>Antall boliger<select data-ev-focus="form_start"><option value="">— velg —</option><option>Opptil 20</option><option>21–60</option><option>61–150</option><option>Mer enn 150</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Legg inn</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Styreverktøyet</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Personvern</a></p>
-  <p class="muted">Ingen juridisk rådgivning. Styret er ansvarlig for HMS-arbeidet, vedtektene og beslutningene.</p>
+  <p>Ingen juridisk rådgivning. Styret er ansvarlig for HMS-arbeidet, vedtektene og beslutningene.</p>
 </div></footer>
 
 </body>
